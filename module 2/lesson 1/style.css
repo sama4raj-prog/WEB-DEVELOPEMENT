@@ -1,0 +1,20 @@
+ul
+{
+    background-color: rgb(64, 0, 255);
+}
+#paragraph 
+{
+    background-color: rgb(234, 255, 0);
+}
+.heading 
+{
+    background-color: aquamarine;
+}
+.idk
+{
+    background-color: red;
+}
+*
+{
+    background-color: black;
+}
