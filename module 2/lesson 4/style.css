@@ -1,0 +1,42 @@
+/*attribute selector*/
+input[type="text"] {
+    border: 2px solid yellow;
+}
+input[type="password"] {
+    border: 2px solid red;
+}
+
+/*Child Selector*/
+ul > li {
+    color: brown;
+}
+/*Sibling Selector*/
+h1 + p {
+    background-color: aqua;
+}
+
+/*hover*/
+a:hover {
+    color: red;
+}
+
+/*nth child*/
+li:nth-child(1) {
+    background-color: yellow;
+}
+
+/*before*/
+h1::before {
+    content: "🤭";
+}
+
+/*after*/
+h1::after {
+    content: "🤭";
+}
+
+/*First Letter*/
+p::first-letter {
+    color: yellow;
+    font-size: 50px;
+}
